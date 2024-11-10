@@ -1,0 +1,56 @@
+very demure
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+margin: 300px auto;
+/* transform: scale(3); */
+border: 1px solid black;
+/* width: 300px; */
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+}
+.answer p {
+    background-color: lightgrey;
+    height: 40px;
+}
+
+.previous {
+    display: flex;
+    background-color: antiquewhite;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 450px) {
+    .container{
+        width: 250px;
+
+    }
+  }
+
+  @media screen and (min-width: 767px) and (max-width: 999px) {
+    .container{
+        width: 300px;
+
+    }
+  }
+
+  @media screen and (min-width: 1000px)  {
+    .container{
+        width: 500px;
+
+    }
+  }
